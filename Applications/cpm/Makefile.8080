@@ -1,7 +1,0 @@
-#
-#	Our CP/M emulation would need a rewrite
-#
-
-all:
-
-clean:
