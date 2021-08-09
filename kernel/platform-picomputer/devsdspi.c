@@ -17,8 +17,8 @@ void sd_rawinit(void)
     gpio_init_mask(0xf << 12);
     gpio_set_function(12, GPIO_FUNC_SPI);
     gpio_set_function(13, GPIO_FUNC_SIO);
-    gpio_set_function(10, GPIO_FUNC_SPI);
-    gpio_set_function(11, GPIO_FUNC_SPI);
+    gpio_set_function(14, GPIO_FUNC_SPI);
+    gpio_set_function(15, GPIO_FUNC_SPI);
     gpio_set_dir(13, true);
 
     spi_init(spi1, 250000);
@@ -65,3 +65,4 @@ bool sd_spi_transmit_sector(void)
 }
 
 /* vim: sw=4 ts=4 et: */
+
