@@ -114,7 +114,7 @@ Device    Boot  Head Sector Cylinder   Head Sector Cylinder  Type  Sector count
          total         used         free
 Mem:       160           56          104
 Swap:     2048            0         2048
-# 
+#
 ```
 
 You can't turn swap off again.
@@ -136,10 +136,10 @@ collection.
 There are many, the biggest of which are:
 
   - CPU exceptions should be mapped to signals.
-
-...and probably others.
+  - No colours for LCD
+  - Limited swap for applications
+  - LoRa cant be used at the same time as sd-card (meaning LoRa doesnt work with this version of picomputer)
+  - LCD still in process of developement
 
 ## Postscript
-
-dg@cowlark.com
-
+gr3yscl@protonmail.com.au
